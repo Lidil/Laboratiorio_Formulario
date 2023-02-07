@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Create Account</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+	</head>
+	<body>
+		<main class="contenido">
+			<h1>Create Account</h1>
+		
+			<form action="" class="formulario" id="formulario">
+	
+			<!-- Grupo: Nombre -->
+				<div class="formulario_grupo" id="grupo_nombre">
+					<label for="nombre" class="formulario_label">Nombre</label>
+					<div class="formulario_g_input">
+						<input type="text" class="formulario_input" name="nombre" id="nombre">
+						<i class="formulario_validacion fa-times-circle "></i>
+					</div>
+					<p class="formulario_input_error">Rellene este campo.</p>
+				</div>
+
+			<!-- Grupo: Correo Electronico -->
+				<div class="formulario_grupo" id="grupo_email">
+					<label for="email" class="formulario_label">Email</label>
+					<div class="formulario_g_input">
+						<input type="email" class="formulario_input" name="email" id="email">
+						<i class="formulario_validacion fa-times-circle"></i>
+					</div>
+					<p class="formulario_input_error">Rellene este campo.</p>
+				</div>
+
+			<!-- Grupo: Contraseña -->
+				<div class="formulario_grupo" id="grupo_clave">
+					<label for="clave" class="formulario_label">Contraseña</label>
+					<div class="formulario_g_input">
+						<input type="password" class="formulario_input" name="clave" id="clave" maxlength="8">
+						<i class="formulario_validacion fa-times-circle"></i>
+					</div>
+					<p class="formulario_input_error">Rellene este campo.</p>
+				</div>
+
+			<!-- Grupo: Contraseña 2 -->
+				<div class="formulario_grupo" id="grupo_clave2">
+					<label for="clave2" class="formulario_label">Repetir Contraseña</label>
+					<div class="formulario_g_input">
+						<input type="password" class="formulario_input" name="clave2" id="clave2" maxlength="8">
+						<i class="formulario_validacion fa-times-circle"></i>
+					</div>
+					<p class="formulario_input_error">Las contraseñas no coinciden.</p>
+				</div>
+
+
+			<!-- Grupo: Boton -->
+			
+				<div class="formulario_grupo formulario_grupo-boton_enviar">
+					<button type="submit" name="enviar" class="formulario_boton">Enviar</button>
+				</div>
+			</form>
+		</main>
+
+	<script src="index.js"></script>
+</body>
+</html>
